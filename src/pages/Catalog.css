@@ -1,0 +1,131 @@
+.catalog-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.catalog-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.catalog-sidebar {
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.catalog-sidebar h3 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+}
+
+.category-list li {
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+  color: #1d1d1f;
+}
+
+.category-list li:hover {
+  background: #f5f5f7;
+}
+
+.category-list li.active {
+  background: #e8e8ed;
+  font-weight: 600;
+}
+
+.price-filter {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-filter input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d2d2d7;
+  border-radius: 8px;
+  font-family: inherit;
+  background: white;
+  margin-bottom: 1rem;
+}
+
+.reset-btn {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.catalog-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  align-content: start;
+}
+
+/* Адаптация */
+@media (max-width: 768px) {
+  .catalog-layout {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .catalog-sidebar {
+    width: 100%;
+  }
+  /* Фильтры в строку */
+  .category-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .category-list li {
+    white-space: nowrap;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+  }
+  .price-filter {
+    flex-direction: row;
+  }
+  .price-filter input {
+    width: 50%;
+  }
+  select {
+    width: 48%;
+    display: inline-block;
+    margin-right: 4%;
+  }
+  .reset-btn {
+    width: auto;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalog-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+  .catalog-sidebar h3 {
+    margin: 0.5rem 0 0.3rem;
+    font-size: 1rem;
+  }
+  select {
+    width: 100%;
+    margin-right: 0;
+  }
+}

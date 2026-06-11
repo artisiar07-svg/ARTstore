@@ -1,0 +1,108 @@
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem;
+}
+
+.checkout-card {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 3rem 2rem;
+}
+
+.checkout-card h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1d1d1f;
+}
+
+/* Анимация спиннера */
+.checkout-animation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 4px solid #f0f0f0;
+  border-top: 4px solid #0071e3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Статус */
+.checkout-status {
+  margin-bottom: 1.5rem;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-text {
+  font-size: 1.1rem;
+  color: #1d1d1f;
+  font-weight: 500;
+}
+
+/* Прогресс-бар */
+.progress-bar-container {
+  width: 100%;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.8rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #0071e3, #00c6ff);
+  border-radius: 4px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+  font-size: 0.9rem;
+  color: #6e6e73;
+  margin-bottom: 1.5rem;
+}
+
+/* Инфо */
+.checkout-info {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.checkout-info p {
+  color: #6e6e73;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Адаптив */
+@media (max-width: 480px) {
+  .checkout-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .checkout-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+  }
+}

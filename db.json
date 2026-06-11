@@ -1,0 +1,1841 @@
+{
+  "users": [
+    {
+      "name": "ярик",
+      "email": "artisiar07@gmail.com",
+      "password": "U2FsdGVkX18SyEWdNotwzrgrLJlvbiVLtZHlEgJFKQM=",
+      "id": "VLpQcFZ0-K0"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Смартфоны",
+      "slug": "phones",
+      "image": "/images/iphone2025.webp"
+    },
+    {
+      "id": "2",
+      "name": "Планшеты",
+      "slug": "tablets",
+      "image": "/images/pro_11_2024_space_black_01-170x170.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Ноутбуки",
+      "slug": "laptops",
+      "image": "/images/air_15_2024_midnight_01-170x170.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Часы",
+      "slug": "watches",
+      "image": "/images/AWU_Black_Titanium_Milanese_Loop_Black1-170x170.png"
+    },
+    {
+      "id": "5",
+      "name": "Наушники",
+      "slug": "audio",
+      "image": "/images/airpods 3-170x170.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Аксессуары",
+      "slug": "accessories",
+      "image": "/images/accnew-2.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "categoryId": 1,
+      "name": "iPhone 16 Pro Max",
+      "brand": "Apple",
+      "description": "Самый большой и мощный iPhone. A18 Pro, титан, 5× зум.",
+      "specs": {
+        "Дисплей": "6.9\" Super Retina XDR",
+        "Процессор": "A18 Pro",
+        "Камера": "48 Мп + 12 Мп + 12 Мп (5×)",
+        "Аккумулятор": "до 33 часов видео",
+        "ОС": "iOS 18"
+      },
+      "variants": [
+        {
+          "sku": "ip16pm-256-nat",
+          "color": "Натуральный титан",
+          "storage": "256 ГБ",
+          "price": 149990,
+          "image": "/images/images1/16_pro_natural_01-450x450.jpg",
+          "stock": 10
+        },
+        {
+          "sku": "ip16pm-512-nat",
+          "color": "Натуральный титан",
+          "storage": "512 ГБ",
+          "price": 169990,
+          "image": "/images/images1/16_pro_natural_02-450x450.jpg",
+          "stock": 5
+        },
+        {
+          "sku": "ip16pm-256-black",
+          "color": "черный титан",
+          "storage": "256 ГБ",
+          "price": 149990,
+          "image": "/images/images1/16_pro_black_01-450x450.jpg",
+          "stock": 8
+        },
+        {
+          "sku": "ip16pm-512-black",
+          "color": "черный титан",
+          "storage": "512 ГБ",
+          "price": 169990,
+          "image": "/images/images1/16_pro_black_02-450x450.jpg",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "categoryId": 1,
+      "name": "iPhone 16 Pro",
+      "brand": "Apple",
+      "description": "Профессиональная камера с 3× зумом. A18 Pro.",
+      "specs": {
+        "Дисплей": "6.3\" Super Retina XDR",
+        "Процессор": "A18 Pro",
+        "Камера": "48 Мп + 12 Мп + 12 Мп (3×)",
+        "Аккумулятор": "до 27 часов видео",
+        "ОС": "iOS 18"
+      },
+      "variants": [
+        {
+          "sku": "ip16p-256-nat",
+          "color": "Натуральный титан",
+          "storage": "256 ГБ",
+          "price": 129990,
+          "image": "/images/images1/16_pro_natural_01-450x450.jpg",
+          "stock": 12
+        },
+        {
+          "sku": "ip16p-512-nat",
+          "color": "Натуральный титан",
+          "storage": "512 ГБ",
+          "price": 149990,
+          "image": "/images/images1/16_pro_natural_02-450x450.jpg",
+          "stock": 7
+        },
+        {
+          "sku": "ip16p-256-black",
+          "color": "черный титан",
+          "storage": "256 ГБ",
+          "price": 129990,
+          "image": "/images/images1/16_pro_black_01-450x450.jpg",
+          "stock": 9
+        },
+        {
+          "sku": "ip16p-512-black",
+          "color": "черный титан",
+          "storage": "512 ГБ",
+          "price": 149990,
+          "image": "/images/images1/16_pro_black_02-450x450.jpg",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "categoryId": 1,
+      "name": "iPhone 16",
+      "brand": "Apple",
+      "description": "Яркие цвета, Dynamic Island, A18.",
+      "specs": {
+        "Дисплей": "6.1\" Super Retina XDR",
+        "Процессор": "A18",
+        "Камера": "48 Мп + 12 Мп",
+        "Аккумулятор": "до 22 часов видео",
+        "ОС": "iOS 18"
+      },
+      "variants": [
+        {
+          "sku": "ip16-128-ultra",
+          "color": "Ультрамарин",
+          "storage": "128 ГБ",
+          "price": 89990,
+          "image": "/images/images1/16_ultramarine_02-450x450.jpg",
+          "stock": 15
+        },
+        {
+          "sku": "ip16-256-ultra",
+          "color": "Ультрамарин",
+          "storage": "256 ГБ",
+          "price": 104990,
+          "image": "/images/images1/16_ultramarine_03-450x450.jpg",
+          "stock": 10
+        },
+        {
+          "sku": "ip16-128-pink",
+          "color": "Розовый",
+          "storage": "128 ГБ",
+          "price": 89990,
+          "image": "/images/images1/16_pink_02-450x450.jpg",
+          "stock": 12
+        },
+        {
+          "sku": "ip16-256-pink",
+          "color": "Розовый",
+          "storage": "256 ГБ",
+          "price": 104990,
+          "image": "/images/images1/16_pink_03-450x450.jpg",
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "categoryId": 1,
+      "name": "Samsung Galaxy S26 Ultra",
+      "brand": "Samsung",
+      "description": "200 Мп камера, S Pen, Galaxy AI+.",
+      "specs": {
+        "Дисплей": "6.9\" Dynamic AMOLED 2X",
+        "Процессор": "Snapdragon 8 Gen 4",
+        "Камера": "200 Мп + 50 Мп + 12 Мп + 10 Мп",
+        "Аккумулятор": "5000 мАч",
+        "ОС": "Android 15"
+      },
+      "variants": [
+        {
+          "sku": "s26u-256-white",
+          "color": "белый",
+          "storage": "256 ГБ",
+          "price": 119990,
+          "image": "/images/images1/white1-450x450.png",
+          "stock": 6
+        },
+        {
+          "sku": "s26u-512-white",
+          "color": "белый",
+          "storage": "512 ГБ",
+          "price": 134990,
+          "image": "/images/images1/white3-450x450.png",
+          "stock": 4
+        },
+        {
+          "sku": "s26u-256-black",
+          "color": "черный",
+          "storage": "256 ГБ",
+          "price": 119990,
+          "image": "/images/images1/black1-450x450.png",
+          "stock": 7
+        },
+        {
+          "sku": "s26u-512-black",
+          "color": "черный",
+          "storage": "512 ГБ",
+          "price": 134990,
+          "image": "/images/images1/black5-450x450.png",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "categoryId": 1,
+      "name": "iPhone 17 Pro Max",
+      "brand": "Apple",
+      "description": "Самый большой и мощный iPhone. A19 Pro, титан, 5× зум.",
+      "specs": {
+        "Дисплей": "6.9\" Super Retina XDR",
+        "Процессор": "A19 Pro",
+        "Камера": "48 Мп + 12 Мп + 12 Мп (5×)",
+        "Аккумулятор": "до 35 часов видео",
+        "ОС": "iOS 19"
+      },
+      "variants": [
+        {
+          "sku": "ip17pm-256-orange",
+          "color": "оранжевый",
+          "storage": "256 ГБ",
+          "price": 159990,
+          "image": "/images/images1/17_pro_cosmic_orange_01-450x450.png",
+          "stock": 5
+        },
+        {
+          "sku": "ip17pm-512-orange",
+          "color": "оранжевый",
+          "storage": "512 ГБ",
+          "price": 179990,
+          "image": "/images/images1/17_pro_cosmic_orange_01-450x450.png",
+          "stock": 3
+        },
+        {
+          "sku": "ip17pm-256-blue",
+          "color": "синий",
+          "storage": "256 ГБ",
+          "price": 159990,
+          "image": "/images/images1/17_pro_deep_blue_01-450x450.png",
+          "stock": 4
+        },
+        {
+          "sku": "ip17pm-512-blue",
+          "color": "синий",
+          "storage": "512 ГБ",
+          "price": 179990,
+          "image": "/images/images1/17_pro_deep_blue_01-450x450.png",
+          "stock": 2
+        },
+        {
+          "sku": "ip17pm-256-silver",
+          "color": "серебристый",
+          "storage": "256 ГБ",
+          "price": 159990,
+          "image": "/images/images1/17_pro_silver_01-450x450.png",
+          "stock": 6
+        },
+        {
+          "sku": "ip17pm-512-silver",
+          "color": "серебристый",
+          "storage": "512 ГБ",
+          "price": 179990,
+          "image": "/images/images1/17_pro_silver_01-450x450.png",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "categoryId": 1,
+      "name": "iPhone 17 Pro",
+      "brand": "Apple",
+      "description": "Профессиональная камера с 3× зумом. A19 Pro.",
+      "specs": {
+        "Дисплей": "6.3\" Super Retina XDR",
+        "Процессор": "A19 Pro",
+        "Камера": "48 Мп + 12 Мп + 12 Мп (3×)",
+        "Аккумулятор": "до 29 часов видео",
+        "ОС": "iOS 19"
+      },
+      "variants": [
+        {
+          "sku": "ip17p-256-orange",
+          "color": "оранжевый",
+          "storage": "256 ГБ",
+          "price": 139990,
+          "image": "/images/images1/17_pro_cosmic_orange_01-450x450.png",
+          "stock": 7
+        },
+        {
+          "sku": "ip17p-512-orange",
+          "color": "оранжевый",
+          "storage": "512 ГБ",
+          "price": 159990,
+          "image": "/images/images1/17_pro_cosmic_orange_01-450x450.png",
+          "stock": 5
+        },
+        {
+          "sku": "ip17p-256-blue",
+          "color": "синий",
+          "storage": "256 ГБ",
+          "price": 139990,
+          "image": "/images/images1/17_pro_deep_blue_01-450x450.png",
+          "stock": 6
+        },
+        {
+          "sku": "ip17p-512-blue",
+          "color": "синий",
+          "storage": "512 ГБ",
+          "price": 159990,
+          "image": "/images/images1/17_pro_deep_blue_01-450x450.png",
+          "stock": 4
+        },
+        {
+          "sku": "ip17p-256-silver",
+          "color": "серебристый",
+          "storage": "256 ГБ",
+          "price": 139990,
+          "image": "/images/images1/17_pro_silver_01-450x450.png",
+          "stock": 8
+        },
+        {
+          "sku": "ip17p-512-silver",
+          "color": "серебристый",
+          "storage": "512 ГБ",
+          "price": 159990,
+          "image": "/images/images1/17_pro_silver_01-450x450.png",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "categoryId": 1,
+      "name": "iPhone 17",
+      "brand": "Apple",
+      "description": "Яркие цвета, Dynamic Island, A19.",
+      "specs": {
+        "Дисплей": "6.1\" Super Retina XDR",
+        "Процессор": "A19",
+        "Камера": "48 Мп + 12 Мп",
+        "Аккумулятор": "до 24 часов видео",
+        "ОС": "iOS 19"
+      },
+      "variants": [
+        {
+          "sku": "ip17-128-black",
+          "color": "чёрный",
+          "storage": "128 ГБ",
+          "price": 94990,
+          "image": "/images/images1/17_black_01-450x450.png",
+          "stock": 10
+        },
+        {
+          "sku": "ip17-256-black",
+          "color": "чёрный",
+          "storage": "256 ГБ",
+          "price": 109990,
+          "image": "/images/images1/17_black_01-450x450.png",
+          "stock": 8
+        },
+        {
+          "sku": "ip17-128-green",
+          "color": "зелёный",
+          "storage": "128 ГБ",
+          "price": 94990,
+          "image": "/images/images1/17_sage_01-450x450.jpg",
+          "stock": 9
+        },
+        {
+          "sku": "ip17-256-green",
+          "color": "зелёный",
+          "storage": "256 ГБ",
+          "price": 109990,
+          "image": "/images/images1/17_sage_01-450x450.jpg",
+          "stock": 7
+        },
+        {
+          "sku": "ip17-128-blue",
+          "color": "голубой",
+          "storage": "128 ГБ",
+          "price": 94990,
+          "image": "/images/images1/17_mist_blue_01-450x450.jpg",
+          "stock": 11
+        },
+        {
+          "sku": "ip17-256-blue",
+          "color": "голубой",
+          "storage": "256 ГБ",
+          "price": 109990,
+          "image": "/images/images1/17_mist_blue_01-450x450.jpg",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "categoryId": 1,
+      "name": "iPhone 15",
+      "brand": "Apple",
+      "description": "Dynamic Island, A16 Bionic, USB-C.",
+      "specs": {
+        "Дисплей": "6.1\" Super Retina XDR",
+        "Процессор": "A16 Bionic",
+        "Камера": "48 Мп + 12 Мп",
+        "Аккумулятор": "до 20 часов видео",
+        "ОС": "iOS 19"
+      },
+      "variants": [
+        {
+          "sku": "ip15-128-black",
+          "color": "Чёрный",
+          "storage": "128 ГБ",
+          "price": 79990,
+          "image": "/images/images1/bb772a7351a411eeb2ca3cecef20832b_45564def578011eeb2ca3cecef20832b-thumbnail-440x440.png",
+          "stock": 14
+        },
+        {
+          "sku": "ip15-256-black",
+          "color": "Чёрный",
+          "storage": "256 ГБ",
+          "price": 94990,
+          "image": "/images/images1/bb772a7351a411eeb2ca3cecef20832b_45564dee578011eeb2ca3cecef20832b-thumbnail-440x440.png",
+          "stock": 9
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "categoryId": 1,
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "description": "A15 Bionic, двойная камера, надёжный выбор.",
+      "specs": {
+        "Дисплей": "6.1\" Super Retina XDR",
+        "Процессор": "A15 Bionic",
+        "Камера": "12 Мп + 12 Мп",
+        "Аккумулятор": "до 20 часов видео",
+        "ОС": "iOS 19"
+      },
+      "variants": [
+        {
+          "sku": "ip14-128-blue",
+          "color": "Синий",
+          "storage": "128 ГБ",
+          "price": 69990,
+          "image": "/images/images1/14_blue_01-450x450.jpeg",
+          "stock": 12
+        },
+        {
+          "sku": "ip14-256-blue",
+          "color": "Синий",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images1/14_blue_02-450x450.jpeg",
+          "stock": 8
+        },
+        {
+          "sku": "ip14-128-purple",
+          "color": "Фиолетовый",
+          "storage": "128 ГБ",
+          "price": 69990,
+          "image": "/images/images1/14_purple_01-450x450.jpeg",
+          "stock": 10
+        },
+        {
+          "sku": "ip14-256-purple",
+          "color": "Фиолетовый",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images1/14_purple_02-450x450.jpeg",
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "categoryId": 1,
+      "name": "iPhone 13",
+      "brand": "Apple",
+      "description": "Компактный и мощный. A15 Bionic.",
+      "specs": {
+        "Дисплей": "5.4\" Super Retina XDR",
+        "Процессор": "A15 Bionic",
+        "Камера": "12 Мп + 12 Мп",
+        "Аккумулятор": "до 17 часов видео",
+        "ОС": "iOS 19"
+      },
+      "variants": [
+        {
+          "sku": "ip13m-128-green",
+          "color": "Зелёный",
+          "storage": "128 ГБ",
+          "price": 59990,
+          "image": "/images/images1/13_green_01-450x450.jpg",
+          "stock": 6
+        },
+        {
+          "sku": "ip13m-256-green",
+          "color": "Зелёный",
+          "storage": "256 ГБ",
+          "price": 74990,
+          "image": "/images/images1/13_green_01-450x450.jpg",
+          "stock": 4
+        },
+        {
+          "sku": "ip13m-128-pink",
+          "color": "Розовый",
+          "storage": "128 ГБ",
+          "price": 59990,
+          "image": "/images/images1/13_pink_01-450x450.jpg",
+          "stock": 5
+        },
+        {
+          "sku": "ip13m-256-pink",
+          "color": "Розовый",
+          "storage": "256 ГБ",
+          "price": 74990,
+          "image": "/images/images1/13_pink_01-450x450.jpg",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "categoryId": 2,
+      "name": "iPad Pro 13\" (M4)",
+      "brand": "Apple",
+      "description": "Самый тонкий и мощный iPad. M4, Ultra Retina XDR.",
+      "specs": {
+        "Дисплей": "13\" Ultra Retina XDR",
+        "Процессор": "Apple M4",
+        "Память": "256 ГБ / 512 ГБ / 1 ТБ / 2 ТБ"
+      },
+      "variants": [
+        {
+          "sku": "ippro13-512-space",
+          "color": "Чёрный",
+          "storage": "512 ГБ",
+          "price": 184990,
+          "image": "/images/images2/pro_13_2024_space_black_01-450x450.jpg",
+          "stock": 4
+        },
+        {
+          "sku": "ippro13-1tb-space",
+          "color": "Чёрный",
+          "storage": "1 ТБ",
+          "price": 159990,
+          "image": "/images/images2/pro_13_2024_space_black_04-450x450.jpg",
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "categoryId": 2,
+      "name": "iPad Air 13\" (M2)",
+      "brand": "Apple",
+      "description": "Большой Air с чипом M2. Liquid Retina.",
+      "specs": {
+        "Дисплей": "13\" Liquid Retina",
+        "Процессор": "Apple M2",
+        "Память": "128 ГБ / 256 ГБ / 512 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "ipair13-256-space",
+          "color": "Серый космос",
+          "storage": "256 ГБ",
+          "price": 99990,
+          "image": "/images/images2/air_13_2024_space_gray_01-450x450.jpg",
+          "stock": 6
+        },
+        {
+          "sku": "ipair13-512-space",
+          "color": "Серый космос",
+          "storage": "512 ГБ",
+          "price": 119990,
+          "image": "/images/images2/air_13_2024_space_gray_03-450x450.jpg",
+          "stock": 4
+        },
+        {
+          "sku": "ipair13-256-blue",
+          "color": "Голубой",
+          "storage": "256 ГБ",
+          "price": 99990,
+          "image": "/images/images2/air_13_2024_blue_01-450x450.jpg",
+          "stock": 5
+        },
+        {
+          "sku": "ipair13-512-blue",
+          "color": "Голубой",
+          "storage": "512 ГБ",
+          "price": 119990,
+          "image": "/images/images2/air_13_2024_blue_03-450x450.jpg",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "categoryId": 2,
+      "name": "iPad Air 11\" (M2)",
+      "brand": "Apple",
+      "description": "Производительность M2 в тонком корпусе.",
+      "specs": {
+        "Дисплей": "11\" Liquid Retina",
+        "Процессор": "Apple M2",
+        "Память": "128 ГБ / 256 ГБ / 512 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "ipair11-256-blue",
+          "color": "Голубой",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images2/air_11_2024_blue_01-450x450.jpg",
+          "stock": 7
+        },
+        {
+          "sku": "ipair11-512-blue",
+          "color": "Голубой",
+          "storage": "512 ГБ",
+          "price": 104990,
+          "image": "/images/images2/air_11_2024_blue_03-450x450.jpg",
+          "stock": 5
+        },
+        {
+          "sku": "ipair11-256-purple",
+          "color": "Фиолетовый",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images2/air_11_2024_purple_cellular_01-450x450.png",
+          "stock": 6
+        },
+        {
+          "sku": "ipair11-512-purple",
+          "color": "Фиолетовый",
+          "storage": "512 ГБ",
+          "price": 104990,
+          "image": "/images/images2/air_11_2024_purple_cellular_03-450x450.jpg",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "categoryId": 2,
+      "name": "iPad mini (7-го поколения)",
+      "brand": "Apple",
+      "description": "Компактный и мощный. A17 Pro, Apple Intelligence.",
+      "specs": {
+        "Дисплей": "8.3\" Liquid Retina",
+        "Процессор": "A17 Pro",
+        "Память": "128 ГБ / 256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "ipadmini7-128-gray",
+          "color": "Серый",
+          "storage": "128 ГБ",
+          "price": 59990,
+          "image": "/images/images2/4d53e48ba90232bedc04a5b87e9a5bff0def5f54b594ac1982927e12b45495a7.jpg.webp",
+          "stock": 8
+        },
+        {
+          "sku": "ipadmini7-256-gray",
+          "color": "Серый",
+          "storage": "256 ГБ",
+          "price": 79990,
+          "image": "/images/images2/1c62ca6ba206212d46330d3d1063bb24b87725cde1d3a5560e09e17013b60c70.jpg.webp",
+          "stock": 6
+        },
+        {
+          "sku": "ipadmini7-128-blue",
+          "color": "Голубой",
+          "storage": "128 ГБ",
+          "price": 59990,
+          "image": "/images/images2/ad09b59b78eb0ee0b561bf62ea749d068b14be87e7d79579d375d9e97b2b9e27.jpg.webp",
+          "stock": 7
+        },
+        {
+          "sku": "ipadmini7-256-blue",
+          "color": "Голубой",
+          "storage": "256 ГБ",
+          "price": 79990,
+          "image": "/images/images2/0eed88591060aca76e073a3b279f3eaa511f5a7b6ce0f824229013a91e5b3e6b.jpg.webp",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "categoryId": 2,
+      "name": "iPad Air 10.9\" (M1)",
+      "brand": "Apple",
+      "description": "Предыдущее поколение. M1, отличная цена.",
+      "specs": {
+        "Дисплей": "10.9\" Liquid Retina",
+        "Процессор": "Apple M1",
+        "Память": "64 ГБ / 256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "ipair5-64-blue",
+          "color": "синий",
+          "storage": "64 ГБ",
+          "price": 64990,
+          "image": "/images/images2/d0fbb39fc4011c0f72141f1b02d28e678ab7b77aea1f3d6d1270e4618dd67569.jpg.webp",
+          "stock": 5
+        },
+        {
+          "sku": "ipair5-256-blue",
+          "color": "синий",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images2/b6f138914f19de9a4698585b414e36c8ffa7cea7a513920428a427b1a1d78faa.jpg.webp",
+          "stock": 4
+        },
+        {
+          "sku": "ipair5-64-purple",
+          "color": "фиолетовый",
+          "storage": "64 ГБ",
+          "price": 69990,
+          "image": "/images/images2/b3cf6d1cbfe649b8d3ef3cf8ce9423335363d6460f44b0ca6127b53fd49cf422.jpg.webp",
+          "stock": 6
+        },
+        {
+          "sku": "ipair5-256-purple",
+          "color": "фиолетовый",
+          "storage": "256 ГБ",
+          "price": 89990,
+          "image": "/images/images2/5bb90537c18468a8851225e9caf210cbd309868286e6e93a3a230ac86869f6e5.jpg.webp",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "categoryId": 2,
+      "name": "iPad (10-го поколения)",
+      "brand": "Apple",
+      "description": "Доступный iPad. A14 Bionic, USB-C.",
+      "specs": {
+        "Дисплей": "10.9\" Liquid Retina",
+        "Процессор": "A14 Bionic",
+        "Память": "64 ГБ / 256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "ipad10-64-yellow",
+          "color": "Жёлтый",
+          "storage": "64 ГБ",
+          "price": 37990,
+          "image": "/images/images2/c8de1288c6f17c846082cd9ef333dd564dfa1ab48bbc86b4facc3b976e43f676.jpg.webp",
+          "stock": 10
+        },
+        {
+          "sku": "ipad10-256-yellow",
+          "color": "Жёлтый",
+          "storage": "256 ГБ",
+          "price": 57990,
+          "image": "/images/images2/6395e315f6119e83b01537bd281680df8c03027d52441188472e79dfed759f35.jpg.webp",
+          "stock": 8
+        },
+        {
+          "sku": "ipad10-64-silver",
+          "color": "Серебристый",
+          "storage": "64 ГБ",
+          "price": 37990,
+          "image": "/images/images2/7d0b6c1deca9cfd4d43fd5055d0a05e2496a5fa91e9e9de90d05aa9bcd506176.jpg.webp",
+          "stock": 12
+        },
+        {
+          "sku": "ipad10-256-silver",
+          "color": "Серебристый",
+          "storage": "256 ГБ",
+          "price": 57990,
+          "image": "/images/images2/9ad4472c1a9bc5514c8aed684862ebdeaa1ab6f234f3bc56298fa86e112b2b66.jpg.webp",
+          "stock": 9
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "categoryId": 3,
+      "name": "MacBook Pro 16\" (M4 Max)",
+      "brand": "Apple",
+      "description": "Максимальная мощность. M4 Max, 36 ГБ, 1 ТБ.",
+      "specs": {
+        "Дисплей": "16.2\" Liquid Retina XDR",
+        "Процессор": "Apple M4 Max",
+        "Память": "36 ГБ",
+        "SSD": "1 ТБ"
+      },
+      "variants": [
+        {
+          "sku": "mbp16-1tb-black",
+          "color": "",
+          "storage": "1 ТБ",
+          "price": 389990,
+          "image": "/images/images3/7992bc4e860221d8dac4c7b485189aa3df5fc7eb381aa53ada4135f000dfb68d.png.webp",
+          "stock": 3
+        },
+        {
+          "sku": "mbp16-2tb-black",
+          "color": "",
+          "storage": "2 ТБ",
+          "price": 389990,
+          "image": "/images/images3/47be64a3e3dd0de92bfe8b8511fb48c6e935814c10ab754bf67230db0f6f74bd.png.webp",
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "categoryId": 3,
+      "name": "MacBook Pro 14\" (M4 Pro)",
+      "brand": "Apple",
+      "description": "Для профессионалов. M4 Pro, 24 ГБ.",
+      "specs": {
+        "Дисплей": "14.2\" Liquid Retina XDR",
+        "Процессор": "Apple M4 Pro",
+        "Память": "24 ГБ",
+        "SSD": "512 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "mbp14-1tb",
+          "color": "",
+          "storage": "1 ТБ",
+          "price": 279990,
+          "image": "/images/images3/7992bc4e860221d8dac4c7b485189aa3df5fc7eb381aa53ada4135f000dfb68d.png.webp",
+          "stock": 4
+        },
+        {
+          "sku": "mbp14-2tb",
+          "color": "",
+          "storage": "2 ТБ",
+          "price": 279990,
+          "image": "/images/images3/47be64a3e3dd0de92bfe8b8511fb48c6e935814c10ab754bf67230db0f6f74bd.png.webp",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "categoryId": 3,
+      "name": "MacBook Air 15\" (M4)",
+      "brand": "Apple",
+      "description": "Большой экран, до 18 часов. M4.",
+      "specs": {
+        "Дисплей": "15.3\" Liquid Retina",
+        "Процессор": "Apple M4",
+        "Память": "16 ГБ",
+        "SSD": "512 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "mba15-512-black",
+          "color": "Чёрный",
+          "storage": "512 ГБ",
+          "price": 154990,
+          "image": "/images/images3/a6ab4de0047d7c249365c959c72cea7710f2fc55127056d9ae2a6e4eee11d64f.png.webp",
+          "stock": 6
+        },
+        {
+          "sku": "mba15-1tb-black",
+          "color": "Чёрный",
+          "storage": "1 ТБ",
+          "price": 184990,
+          "image": "/images/images3/29abeb179c83ac6427846db630bbf4df811365779dffd7ece7836da83ba96dfc.png.webp",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "categoryId": 3,
+      "name": "MacBook Air 13\" (M4)",
+      "brand": "Apple",
+      "description": "Тонкий и лёгкий. M4, до 18 часов.",
+      "specs": {
+        "Дисплей": "13.6\" Liquid Retina",
+        "Процессор": "Apple M4",
+        "Память": "16 ГБ",
+        "SSD": "256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "mba13-256-silver",
+          "color": "Серебристый",
+          "storage": "256 ГБ",
+          "price": 124990,
+          "image": "/images/images3/f8d81ff00308e25d9cbc7f18073339860d09c7639e632500d09d89e12c4bd787.png.webp",
+          "stock": 8
+        },
+        {
+          "sku": "mba13-512-silver",
+          "color": "Серебристый",
+          "storage": "512 ГБ",
+          "price": 164990,
+          "image": "/images/images3/9aa1a54d2c176c3cbbfaafa971dd0610714bfd6ed23c6e4d3cebec6d437340de.png.webp",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "categoryId": 3,
+      "name": "MacBook Air 13\" (M3)",
+      "brand": "Apple",
+      "description": "Предыдущее поколение. M3, отличная цена.",
+      "specs": {
+        "Дисплей": "13.6\" Liquid Retina",
+        "Процессор": "Apple M3",
+        "Память": "8 ГБ",
+        "SSD": "256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "mba13m3-256-black",
+          "color": "черный",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images3/5c4432770dcfcfd5fc2f02efa898048e1b2a4a8ee0fbee4fbe99e83b8d83c8f1.jpg.webp",
+          "stock": 10
+        },
+        {
+          "sku": "mba13m3-512-black",
+          "color": "черный",
+          "storage": "512 ГБ",
+          "price": 104990,
+          "image": "/images/images3/80e0915ac73deb52e25c3f5e80aa84be22c69e6faed979ae4480d33cb18e3ce0.jpg.webp",
+          "stock": 7
+        },
+        {
+          "sku": "mba13m3-256-blue",
+          "color": "голубой",
+          "storage": "256 ГБ",
+          "price": 84990,
+          "image": "/images/images3/1a28b0814109c45cd60b9336530ae39b1c62058cc343a331ac4e0f91edbbd9af.png.webp",
+          "stock": 9
+        },
+        {
+          "sku": "mba13m3-512-blue",
+          "color": "голубой",
+          "storage": "512 ГБ",
+          "price": 104990,
+          "image": "/images/images3/b745e6eee426718c538acd5cfb7559c038c91c9259715c54eacacd9c3399eb73.png.webp",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "categoryId": 3,
+      "name": "MacBook Air 15\" (M3)",
+      "brand": "Apple",
+      "description": "Большой экран, M3, до 18 часов.",
+      "specs": {
+        "Дисплей": "15.3\" Liquid Retina",
+        "Процессор": "Apple M3",
+        "Память": "8 ГБ",
+        "SSD": "256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "mba15m3-256-gold",
+          "color": "золотой",
+          "storage": "256 ГБ",
+          "price": 124990,
+          "image": "/images/images3/9ae422136b9ece9a7ede95269282f60e59a0be515225d0d64e164130b09db14d.jpg.webp",
+          "stock": 5
+        },
+        {
+          "sku": "mba15m3-512-gold",
+          "color": "золотой",
+          "storage": "512 ГБ",
+          "price": 144990,
+          "image": "/images/images3/78a3cb9da6d320dd50efe50bd4a920c2ec0ed27b4e72ab9666ce50d7969b6ec2.jpg.webp",
+          "stock": 4
+        },
+        {
+          "sku": "mba15m3-256-silver",
+          "color": "серебристый",
+          "storage": "256 ГБ",
+          "price": 124990,
+          "image": "/images/images3/f8d81ff00308e25d9cbc7f18073339860d09c7639e632500d09d89e12c4bd787.png.webp",
+          "stock": 6
+        },
+        {
+          "sku": "mba15m3-512-silver",
+          "color": "серебристый",
+          "storage": "512 ГБ",
+          "price": 144990,
+          "image": "/images/images3/67759590e0c63a9aedda5ae6a4810b9907e2ab1df6576086bf683dd9a4cccc66.jpg.webp",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "categoryId": 3,
+      "name": "MacBook Pro 13\" (M2)",
+      "brand": "Apple",
+      "description": "Компактный Pro с Touch Bar. M2.",
+      "specs": {
+        "Дисплей": "13.3\" Retina",
+        "Процессор": "Apple M2",
+        "Память": "8 ГБ",
+        "SSD": "256 ГБ"
+      },
+      "variants": [
+        {
+          "sku": "mbp13m2-256-gray",
+          "color": "Серый",
+          "storage": "256 ГБ",
+          "price": 119990,
+          "image": "/images/images3/a6b2ef3cca147194dea71a78cb070d5423d891d03da88ed557a6c0bad47c8a1a.jpg.webp",
+          "stock": 4
+        },
+        {
+          "sku": "mbp13m2-512-gray",
+          "color": "Серый",
+          "storage": "512 ГБ",
+          "price": 139990,
+          "image": "/images/images3/fa08c8d5b88a834d837defd2f2dab745bb9812beee80ddb4b88aeae2ea696930.jpg.webp",
+          "stock": 3
+        },
+        {
+          "sku": "mbp13m2-256-silver",
+          "color": "Серебристый",
+          "storage": "256 ГБ",
+          "price": 119990,
+          "image": "/images/images3/1b9955bfbb176bfde7bd6f1232eed254e0d3f1c0c5649e960f1ab14510c72581.jpg.webp",
+          "stock": 5
+        },
+        {
+          "sku": "mbp13m2-512-silver",
+          "color": "Серебристый",
+          "storage": "512 ГБ",
+          "price": 139990,
+          "image": "/images/images3/9f4d06be9865579382e48da0e2416ccc1412f235fedd76285e3a09fbb66a6584.jpg.webp",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "categoryId": 4,
+      "name": "Apple Watch Ultra 3",
+      "brand": "Apple",
+      "description": "Для экстремального спорта. Титановый корпус, WR100.",
+      "specs": {
+        "Дисплей": "49 мм",
+        "Процессор": "S10 SiP",
+        "Защита": "WR100",
+        "Батарея": "до 72 часов"
+      },
+      "variants": [
+        {
+          "sku": "awu3-black-ocean",
+          "color": "Чёрный титан",
+          "storage": "64 ГБ",
+          "price": 89990,
+          "image": "/images/images5/awu_Black_Titanium_Black_Ocean_Band1-450x450 copy.png",
+          "stock": 3
+        },
+        {
+          "sku": "awu3-black-ocean2",
+          "color": "Чёрный титан",
+          "storage": "64 ГБ",
+          "price": 89990,
+          "image": "/images/images5/awu_Black_Titanium_Black_Ocean_Band2-450x450.png",
+          "stock": 3
+        },
+        {
+          "sku": "awu3-natural-trail",
+          "color": "Натуральный титан",
+          "storage": "64 ГБ",
+          "price": 89990,
+          "image": "/images/images5/awu_Natural_Titanium_Bright_Blue_Trail_Loop1-450x450.png",
+          "stock": 4
+        },
+        {
+          "sku": "awu3-natural-trail2",
+          "color": "Натуральный титан",
+          "storage": "64 ГБ",
+          "price": 89990,
+          "image": "/images/images5/awu_Natural_Titanium_Bright_Blue_Trail_Loop2-450x450.png",
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "categoryId": 4,
+      "name": "Apple Watch Series 10 (46 мм)",
+      "brand": "Apple",
+      "description": "Самый большой дисплей. S10 SiP, WR50.",
+      "specs": {
+        "Дисплей": "46 мм",
+        "Процессор": "S10 SiP",
+        "Защита": "WR50",
+        "Батарея": "до 36 часов"
+      },
+      "variants": [
+        {
+          "sku": "aw10-46-silver",
+          "color": "Серебристый",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/e77a79bae775273a3f17d1194fe3d24a46301c6505743e46848c10f7895a1d08.jpg.webp",
+          "stock": 10
+        },
+        {
+          "sku": "aw10-46-silver2",
+          "color": "Серебристый",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/2d39b5aa193abe8e6008492c62abf60302ec4735a5d0c52f3bd157dfba85c06c.jpg.webp",
+          "stock": 8
+        },
+        {
+          "sku": "aw10-46-black",
+          "color": "Чёрный",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/e86f7b605064bf8aa555f8230058c76d97558f896c2366bff5c71ce7d41fe7c9.jpg.webp",
+          "stock": 9
+        },
+        {
+          "sku": "aw10-46-black2",
+          "color": "Чёрный",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/e71ff9b1d285fee448e08c2cc400dd5570d528ab0800ae5f26918ceb889b9859.jpg.webp",
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "categoryId": 4,
+      "name": "Apple Watch Series 10 (42 мм)",
+      "brand": "Apple",
+      "description": "Компактная версия. S10 SiP, WR50.",
+      "specs": {
+        "Дисплей": "42 мм",
+        "Процессор": "S10 SiP",
+        "Защита": "WR50",
+        "Батарея": "до 30 часов"
+      },
+      "variants": [
+        {
+          "sku": "aw10-42-silver",
+          "color": "Серебристый",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/e77a79bae775273a3f17d1194fe3d24a46301c6505743e46848c10f7895a1d08.jpg.webp",
+          "stock": 11
+        },
+        {
+          "sku": "aw10-42-silver2",
+          "color": "Серебристый",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/2d39b5aa193abe8e6008492c62abf60302ec4735a5d0c52f3bd157dfba85c06c.jpg.webp",
+          "stock": 9
+        },
+        {
+          "sku": "aw10-42-black",
+          "color": "Чёрный",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/e86f7b605064bf8aa555f8230058c76d97558f896c2366bff5c71ce7d41fe7c9.jpg.webp",
+          "stock": 8
+        },
+        {
+          "sku": "aw10-42-black2",
+          "color": "Чёрный",
+          "storage": "64 ГБ",
+          "price": 49990,
+          "image": "/images/images5/e71ff9b1d285fee448e08c2cc400dd5570d528ab0800ae5f26918ceb889b9859.jpg.webp",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "categoryId": 4,
+      "name": "Apple Watch SE 3 (44 мм)",
+      "brand": "Apple",
+      "description": "Доступные часы с новыми функциями. S9 SiP.",
+      "specs": {
+        "Дисплей": "44 мм",
+        "Процессор": "S9 SiP",
+        "Защита": "WR50",
+        "Батарея": "до 24 часов"
+      },
+      "variants": [
+        {
+          "sku": "awse3-44-midnight",
+          "color": "Чёрный",
+          "storage": "32 ГБ",
+          "price": 29990,
+          "image": "/images/images5/a74348748649159137442a2ebfcad31f4e620ee4626e310fd30f0514342da8a9.jpg.webp",
+          "stock": 12
+        },
+        {
+          "sku": "awse3-44-midnight2",
+          "color": "Чёрный",
+          "storage": "32 ГБ",
+          "price": 29990,
+          "image": "/images/images5/97db95ad7c870bd9243d49f6950dc12d86fc6d31e5cf28d75ac12328250b0ca0.jpg.webp",
+          "stock": 10
+        },
+        {
+          "sku": "awse3-44-starlight",
+          "color": "бежевый",
+          "storage": "32 ГБ",
+          "price": 29990,
+          "image": "/images/images5/47c8807a3ce4320ccffaeb9cfcafd2cb5f7b41c265366726cc3caab493b28bb7.jpg.webp",
+          "stock": 9
+        },
+        {
+          "sku": "awse3-44-starlight2",
+          "color": "бежевый",
+          "storage": "32 ГБ",
+          "price": 29990,
+          "image": "/images/images5/adb1f7f0ebb72c87961e8b9b54992e31ee9ed841571e214a8f5e13353ef4acdd.jpg.webp",
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "categoryId": 4,
+      "name": "Apple Watch Series 9 (45 мм)",
+      "brand": "Apple",
+      "description": "Предыдущее поколение. S9 SiP, отличная цена.",
+      "specs": {
+        "Дисплей": "45 мм",
+        "Процессор": "S9 SiP",
+        "Защита": "WR50",
+        "Батарея": "до 36 часов"
+      },
+      "variants": [
+        {
+          "sku": "aw9-45-black",
+          "color": "Чёрный",
+          "storage": "64 ГБ",
+          "price": 39990,
+          "image": "/images/images5/d2e0a66b3fd2f505fa9a08426a170f381706d1046622d3deea4023da1f62a9df.jpg.webp",
+          "stock": 7
+        },
+        {
+          "sku": "aw9-45-black2",
+          "color": "Чёрный",
+          "storage": "64 ГБ",
+          "price": 39990,
+          "image": "/images/images5/9cc3623da82fdcf44824d6ca19885c71349a4f1e55bf9eb72ea343a05e103d8d.jpg.webp",
+          "stock": 5
+        },
+        {
+          "sku": "aw9-45-red",
+          "color": "Красный",
+          "storage": "64 ГБ",
+          "price": 39990,
+          "image": "/images/images5/9ca1270d02e4609264101ce09af4fc02c8c32d29af109ab6f9c0b2c9a51c276f.jpg.webp",
+          "stock": 6
+        },
+        {
+          "sku": "aw9-45-red2",
+          "color": "Красный",
+          "storage": "64 ГБ",
+          "price": 39990,
+          "image": "/images/images5/1ef47f66bb24c64708fa29b6b959f20bcfb7b690aa6bf3060c5e3b043655bef3.jpg.webp",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "categoryId": 5,
+      "name": "AirPods Pro 3",
+      "brand": "Apple",
+      "description": "Адаптивное шумоподавление, чип H3, персонализированное аудио.",
+      "specs": {
+        "Чип": "Apple H3",
+        "Шумоподавление": "Активное",
+        "Время работы": "до 7 часов",
+        "Защита": "IP54"
+      },
+      "variants": [
+        {
+          "sku": "app3-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 29990,
+          "image": "/images/images4/airpods 3-450x450.jpg",
+          "stock": 20
+        },
+        {
+          "sku": "app3-white2",
+          "color": "Белый",
+          "storage": "",
+          "price": 29990,
+          "image": "/images/images4/nno2mj487uujkw50amim2vockrun5gdc-450x450.jpg",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "categoryId": 5,
+      "name": "AirPods Max (USB-C)",
+      "brand": "Apple",
+      "description": "Премиум звук, пространственное аудио, USB-C.",
+      "specs": {
+        "Чип": "Apple H2",
+        "Время работы": "до 20 часов",
+        "Разъём": "USB-C",
+        "Вес": "385 г"
+      },
+      "variants": [
+        {
+          "sku": "apmax-midnight",
+          "color": "Черный",
+          "storage": "",
+          "price": 64990,
+          "image": "/images/images4/airpods_max_usb_c_midnight_02-450x450.jpg",
+          "stock": 5
+        },
+        {
+          "sku": "apmax-starlight",
+          "color": "Белые",
+          "storage": "",
+          "price": 64990,
+          "image": "/images/images4/airpods_max_usb_c_starlight_02-450x450.jpg",
+          "stock": 4
+        },
+        {
+          "sku": "apmax-purple",
+          "color": "Фиолетовый",
+          "storage": "",
+          "price": 64990,
+          "image": "/images/images4/airpods_max_usb_c_purple_02-450x450.jpg",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "categoryId": 5,
+      "name": "AirPods Pro 2",
+      "brand": "Apple",
+      "description": "Предыдущее поколение. Чип H2, активное шумоподавление.",
+      "specs": {
+        "Чип": "Apple H2",
+        "Шумоподавление": "Активное",
+        "Время работы": "до 6 часов",
+        "Защита": "IP54"
+      },
+      "variants": [
+        {
+          "sku": "app2-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 23990,
+          "image": "/images/images4/airpods_pro_2023_01-450x450.jpg",
+          "stock": 18
+        },
+        {
+          "sku": "app2-white2",
+          "color": "Белый",
+          "storage": "",
+          "price": 23990,
+          "image": "/images/images4/airpods_pro_2023_02-450x450.jpg",
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "categoryId": 5,
+      "name": "AirPods 4",
+      "brand": "Apple",
+      "description": "Новое поколение. Чип H2, пространственное аудио.",
+      "specs": {
+        "Чип": "Apple H2",
+        "Время работы": "до 5 часов",
+        "Защита": "IPX4",
+        "Зарядка": "USB-C"
+      },
+      "variants": [
+        {
+          "sku": "ap4-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 17990,
+          "image": "/images/images4/airpods_4_2024_01-450x450.jpg",
+          "stock": 22
+        },
+        {
+          "sku": "ap4-white2",
+          "color": "Белый",
+          "storage": "",
+          "price": 17990,
+          "image": "/images/images4/airpods_4_ANC_2024_02-450x450.jpg",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "categoryId": 5,
+      "name": "AirPods 4 с шумоподавлением",
+      "brand": "Apple",
+      "description": "AirPods 4 с активным шумоподавлением. Чип H2.",
+      "specs": {
+        "Чип": "Apple H2",
+        "Шумоподавление": "Активное",
+        "Время работы": "до 5 часов",
+        "Защита": "IPX4"
+      },
+      "variants": [
+        {
+          "sku": "ap4anc-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 22990,
+          "image": "/images/images4/airpods_4_ANC_2024_01-450x450.jpg",
+          "stock": 12
+        },
+        {
+          "sku": "ap4anc-white2",
+          "color": "Белый",
+          "storage": "",
+          "price": 22990,
+          "image": "/images/images4/airpods_4_ANC_2024_02-450x450.jpg",
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "categoryId": 5,
+      "name": "AirPods 3",
+      "brand": "Apple",
+      "description": "Пространственное аудио, адаптивный эквалайзер.",
+      "specs": {
+        "Чип": "Apple H1",
+        "Время работы": "до 6 часов",
+        "Защита": "IPX4",
+        "Зарядка": "MagSafe"
+      },
+      "variants": [
+        {
+          "sku": "ap3-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 14990,
+          "image": "/images/images4/airpods_2021_01-450x450.jpg",
+          "stock": 14
+        },
+        {
+          "sku": "ap3-white2",
+          "color": "Белый",
+          "storage": "",
+          "price": 14990,
+          "image": "/images/images4/airpods_2021_02-450x450.jpg",
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "categoryId": 6,
+      "name": "Magic Keyboard для iPad Pro 13\"",
+      "brand": "Apple",
+      "description": "Полноценная клавиатура с трекпадом и подсветкой.",
+      "specs": {
+        "Совместимость": "iPad Pro 13\" (M4)",
+        "Раскладка": "Русская",
+        "Подсветка": "Да"
+      },
+      "variants": [
+        {
+          "sku": "mk-ip13-black",
+          "color": "Чёрный",
+          "storage": "",
+          "price": 44990,
+          "image": "/images/images6/047d8f68871d25a0c5cc8b93a746c3c66985dcd70a265a1d238099f18974cdb9.jpg.webp",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "categoryId": 6,
+      "name": "Magic Keyboard для iPad Pro 11\"",
+      "brand": "Apple",
+      "description": "Клавиатура с трекпадом для iPad Pro 11\".",
+      "specs": {
+        "Совместимость": "iPad Pro 11\" (M4)",
+        "Раскладка": "Русская",
+        "Подсветка": "Да"
+      },
+      "variants": [
+        {
+          "sku": "mk-ip11-black",
+          "color": "Чёрный",
+          "storage": "",
+          "price": 38990,
+          "image": "/images/images6/e3a17998b4225b028cf9818f565a0848aceb721c26d36b34bf6765290ea737c5.jpg.webp",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "categoryId": 6,
+      "name": "Apple Pencil Pro",
+      "brand": "Apple",
+      "description": "Тактильный отклик, сжатие, двойное касание.",
+      "specs": {
+        "Совместимость": "iPad Pro M4, iPad Air M2",
+        "Зарядка": "Магнитная",
+        "Чувствительность": "4096 уровней"
+      },
+      "variants": [
+        {
+          "sku": "pencilpro-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 17990,
+          "image": "/images/images6/48e6d29fb44a2cb247964b0f24771b9206d0256d68b2a102e71d87e08b68299a.jpg.webp",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "categoryId": 6,
+      "name": "Apple Pencil (USB-C)",
+      "brand": "Apple",
+      "description": "Доступный стилус с USB-C.",
+      "specs": {
+        "Совместимость": "iPad (10-го поколения и новее)",
+        "Разъём": "USB-C",
+        "Наклон": "Да"
+      },
+      "variants": [
+        {
+          "sku": "pencil-usbc-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 9990,
+          "image": "/images/images6/c57f73b6a3d2e998419c3493222301cd8c5728ff04d0c0a9958f4e36be8f997a.jpg",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "categoryId": 6,
+      "name": "MagSafe Charger 25W",
+      "brand": "Apple",
+      "description": "Быстрая беспроводная зарядка 25 Вт.",
+      "specs": {
+        "Мощность": "25 Вт",
+        "Совместимость": "iPhone 12+",
+        "Кабель": "1 м USB-C"
+      },
+      "variants": [
+        {
+          "sku": "magsafe25-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 4990,
+          "image": "/images/images6/3f1b229920a54c85026a8a762c3feed25d20012b080759eb9c172ce24bb7b01f.jpg.webp",
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "categoryId": 6,
+      "name": "Apple AirTag (4 шт.)",
+      "brand": "Apple",
+      "description": "Трекеры для поиска вещей. UWB-чип.",
+      "specs": {
+        "Батарея": "CR2032 (1 год)",
+        "Связь": "Bluetooth + UWB",
+        "Защита": "IP67"
+      },
+      "variants": [
+        {
+          "sku": "airtag4-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 8990,
+          "image": "/images/images6/df2ed3b2da74d1e441ffc25b47541d07b8f4e5c30639f89f49e980e569b66fad.jpg",
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "categoryId": 6,
+      "name": "Apple AirTag (1 шт.)",
+      "brand": "Apple",
+      "description": "Трекер для поиска ключей, сумки, багажа.",
+      "specs": {
+        "Батарея": "CR2032 (1 год)",
+        "Связь": "Bluetooth + UWB",
+        "Защита": "IP67"
+      },
+      "variants": [
+        {
+          "sku": "airtag1-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 2990,
+          "image": "/images/images6/4e592bd738108565401ab35c232456b1c3bccbfe1959f6fa307c7735cff098d2.jpg.webp",
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "categoryId": 6,
+      "name": "Apple Watch Sport Loop",
+      "brand": "Apple",
+      "description": "Лёгкий и дышащий ремешок для повседневной носки.",
+      "specs": {
+        "Материал": "Нейлон",
+        "Совместимость": "Apple Watch 40/41/42 мм",
+        "Застёжка": "Липучка"
+      },
+      "variants": [
+        {
+          "sku": "awband-loop-golden",
+          "color": "",
+          "storage": "золотистый",
+          "price": 5990,
+          "image": "/images/images6/c76547f2bca32c6e7ae0ed3954f4756c7fb0298a03bc1040e6931e0eb6d11d63.jpg",
+          "stock": 10
+        },
+        {
+          "sku": "awband-loop-black",
+          "color": "",
+          "storage": "Чёрный",
+          "price": 5990,
+          "image": "/images/images6/702db9b68efdcec0a488516001edd50503f9dd7485446b4c4ab8c2ad8e28975f.jpg.webp",
+          "stock": 12
+        },
+        {
+          "sku": "awband-loop-silver",
+          "color": "",
+          "storage": "Серебристый",
+          "price": 5990,
+          "image": "/images/images6/f2e90eede6101f0b43783e799a31c1622f8de9b732230ee9245cbdbdf1daa33c.jpg.webp",
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "categoryId": 6,
+      "name": "Apple USB-C Charger 35W (два порта)",
+      "brand": "Apple",
+      "description": "Компактная зарядка на два устройства.",
+      "specs": {
+        "Мощность": "35 Вт",
+        "Порты": "2× USB-C",
+        "Совместимость": "iPhone, iPad, AirPods, Apple Watch"
+      },
+      "variants": [
+        {
+          "sku": "charger35w-white",
+          "color": "Белый",
+          "storage": "",
+          "price": 5990,
+          "image": "/images/images6/e9c44c844080b303afdd69774e4f33501c2e6a4afc87f66e16a888f9ba54620c.jpg",
+          "stock": 18
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "userId": "VLpQcFZ0-K0",
+      "created_at": "2026-06-04T02:45:28.185Z",
+      "status": "Обрабатывается",
+      "total": 169990,
+      "items": [
+        {
+          "variantSku": "ip16pm-512-nat",
+          "quantity": 1,
+          "price": 169990
+        }
+      ],
+      "id": "0AVhfwlKHVI"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "created_at": "2026-06-04T03:31:30.125Z",
+      "status": "Обрабатывается",
+      "total": 154990,
+      "items": [
+        {
+          "variantSku": "mba15-512-black",
+          "quantity": 1,
+          "price": 154990,
+          "name": "MacBook Air 15\" (M4)",
+          "image": "/images/images3/a6ab4de0047d7c249365c959c72cea7710f2fc55127056d9ae2a6e4eee11d64f.png.webp"
+        }
+      ],
+      "id": "WVSF35qSBr0"
+    }
+  ],
+  "reviews": [
+    {
+      "userId": "VLpQcFZ0-K0",
+      "rating": 5,
+      "text": "всо кртуто!!!",
+      "date": "2026-06-04",
+      "id": "956XzNxasA8"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "rating": 5,
+      "text": "ывфв",
+      "date": "2026-06-04",
+      "id": "-a_2DNo3BT4"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "rating": 5,
+      "text": "чяч",
+      "date": "2026-06-04",
+      "id": "BQfCdKPBsJU"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "авва",
+      "date": "2026-06-04",
+      "id": "Rgv3f3t87JA"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "вапапв",
+      "date": "2026-06-04",
+      "id": "LU6Jr-azC60"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "ыяфыв",
+      "date": "2026-06-04",
+      "id": "DFOH8-sJcGM"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "ыыфв",
+      "date": "2026-06-04",
+      "id": "sNqEe_u5f8Y"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "ыфыфв",
+      "date": "2026-06-04",
+      "id": "vbnLG2c7hb8"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "авим",
+      "date": "2026-06-04",
+      "id": "BupwnRBUpYI"
+    },
+    {
+      "userId": "VLpQcFZ0-K0",
+      "userName": "ярик",
+      "rating": 5,
+      "text": "fsf",
+      "date": "2026-06-05",
+      "id": "rT-w9006GJo"
+    }
+  ]
+}
