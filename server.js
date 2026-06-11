@@ -100,7 +100,7 @@ app.delete('/api/:collection/:id', (req, res) => {
 // Раздача статики React (для production)
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'build')));
-  app.get('*', (req, res) => {
+  app.get('/(.*)', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
   });
 }
